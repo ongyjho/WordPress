@@ -332,7 +332,7 @@ function wp_ssl_constants() {
 			define( 'FORCE_SSL_ADMIN', false );
 		}
 	}
-	force_ssl_admin( FORCE_SSL_ADMIN );
+	force_ssl_admin( true );
 
 	/**
 	 * @since 2.6.0
